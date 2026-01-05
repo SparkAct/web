@@ -114,8 +114,6 @@ function Footer() {
     <footer className="footer">
       <div className="container footer-inner">
         <div>© {new Date().getFullYear()} 火花行動有限公司 SparkAct Co., Ltd.</div>
-        <div className="footer-links">
-        </div>
       </div>
     </footer>
   )
