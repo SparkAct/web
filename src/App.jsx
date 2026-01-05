@@ -115,10 +115,6 @@ function Footer() {
       <div className="container footer-inner">
         <div>© {new Date().getFullYear()} 火花行動有限公司 SparkAct Co., Ltd.</div>
         <div className="footer-links">
-          <a href="#home">首頁</a>
-          <a href="#services">服務</a>
-          <a href="#about">關於</a>
-          <a href="#contact">聯絡</a>
         </div>
       </div>
     </footer>
