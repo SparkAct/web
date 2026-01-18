@@ -10,6 +10,20 @@ export const translations = {
       title: '火花行動有限公司 SparkAct.co',
       subtitle: 'AI 自動化導入｜伺服器建置代管｜客製化軟體開發｜電腦硬體裝修'
     },
+    team: {
+      title: '團隊成員',
+      subtitle: '超過 3 年以上的軟體開發經驗，提供您最專業的技術服務',
+      members: [
+        { name: '蕭善彧 (執行長)', edu: 'BSc, Applied Computing, NCU@Taiwan', avatar: '/team/01_ShanYu.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
+        { name: '賴立傑 (營運長)', edu: 'BBA, Information Management, NCU@Taiwan', avatar: '/team/02_LiJie.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
+        { name: '陳思維 (技術總監)', edu: 'BSc, Computer Science, NCU@Taiwan', avatar: '/team/03_SWC.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
+        { name: '', edu: '' },
+        { name: '', edu: '' },
+        { name: '', edu: '' },
+        { name: '', edu: '' },
+        { name: '', edu: '' }
+      ]
+    },
     services: {
       title: '成果展示',
       items: [
@@ -39,23 +53,9 @@ export const translations = {
         { title: '2023 UAiTED Innovation Competition', subtitle: 'Silver Award', location: 'Malaysia', date: 'Nov.2023', logo: '/awards/04_UAiTED.png' }
       ]
     },
-    team: {
-      title: '團隊成員',
-      subtitle: '超過 3 年以上的軟體開發經驗，提供您最專業的技術服務',
-      members: [
-        { name: '蕭善彧 (執行長)', edu: 'BSc, Applied Computing, NCU@Taiwan', avatar: '/team/01_ShanYu.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
-        { name: '賴立傑 (營運長)', edu: 'BBA, Information Management, NCU@Taiwan', avatar: '/team/02_LiJie.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
-        { name: '陳思維 (技術總監)', edu: 'BSc, Computer Science, NCU@Taiwan', avatar: '/team/03_SWC.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
-        { name: '', edu: '' },
-        { name: '', edu: '' },
-        { name: '', edu: '' },
-        { name: '', edu: '' },
-        { name: '', edu: '' }
-      ]
-    },
     contact: {
       title: '聯絡我們',
-      subtitle: '歡迎來信說明您的需求與預算，我們將盡速回覆並提供合適的方案建議與時程規劃。',
+      subtitle: '諮詢服務免收費用，歡迎來信洽談',
       company: '公司',
       companyName: '火花行動有限公司',
       taxId: '統編',
@@ -85,6 +85,20 @@ export const translations = {
       title: 'SparkAct.co — Spark Action',
       subtitle: 'AI automation, server setup & management, custom software development, hardware refurbishment.'
     },
+    team: {
+      title: 'Our Team',
+      subtitle: 'Over 3 years of software development experience, providing you with the most professional technical services',
+      members: [
+        { name: 'Founder / CTO', edu: 'BSc, Applied Computing, NCU@Taiwan', avatar: '/team/01_ShanYu.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
+        { name: 'Senior Engineer', edu: 'BBA, Information Management, NCU@Taiwan', avatar: '/team/02_LiJie.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
+        { name: 'Frontend Engineer', edu: 'BSc, Computer Science, NCU@Taiwan', avatar: '/team/03_SWC.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
+        { name: '', edu: '' },
+        { name: '', edu: '' },
+        { name: '', edu: '' },
+        { name: '', edu: '' },
+        { name: '', edu: '' }
+      ]
+    },
     services: {
       title: 'Portfolio',
       items: [
@@ -112,20 +126,6 @@ export const translations = {
         { title: 'Yunus Award - 8th Social Innovation & Entrepreneurship Competition', subtitle: 'Finalist', location: 'Taoyuan', date: 'Dec.2023', logo: '/awards/02_Yunus.png' },
         { title: 'ASUS Cloud Hakka AI Hackathon Competition', subtitle: '1st Place', location: 'Taipei', date: 'Sep.2023', logo: '/awards/03_ASUS.png' },
         { title: '2023 UAiTED Innovation Competition', subtitle: 'Silver Award', location: 'Malaysia', date: 'Nov.2023', logo: '/awards/04_UAiTED.png' }
-      ]
-    },
-    team: {
-      title: 'Our Team',
-      subtitle: 'Over 3 years of software development experience, providing you with the most professional technical services',
-      members: [
-        { name: 'Founder / CTO', edu: 'BSc, Applied Computing, NCU@Taiwan', avatar: '/team/01_ShanYu.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
-        { name: 'Senior Engineer', edu: 'BBA, Information Management, NCU@Taiwan', avatar: '/team/02_LiJie.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
-        { name: 'Frontend Engineer', edu: 'BSc, Computer Science, NCU@Taiwan', avatar: '/team/03_SWC.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
-        { name: '', edu: '' },
-        { name: '', edu: '' },
-        { name: '', edu: '' },
-        { name: '', edu: '' },
-        { name: '', edu: '' }
       ]
     },
     contact: {

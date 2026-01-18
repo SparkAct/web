@@ -6,6 +6,11 @@
   padding-top: 30px;
 }
 
+.contact-subtitle {
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+
 .info {
   margin: 24px 0;
   color: var(--muted);

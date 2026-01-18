@@ -13,7 +13,9 @@ export default function Team() {
         <h2 className="section-title">{t.team.title}</h2>
         <p className="team-subtitle">{t.team.subtitle}</p>
         <div className="team-grid">
-          {t.team.members.map((m) => {
+          {t.team.members
+            .filter(m => m.name && m.name.trim())
+            .map((m, index) => {
             const CardContent = (
               <>
                 {m.avatar ? (
@@ -35,12 +37,12 @@ export default function Team() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="card member-card member-card-link"
-                key={m.name}
+                key={`${m.name}-${index}`}
               >
                 {CardContent}
               </a>
             ) : (
-              <div className="card member-card" key={m.name}>
+              <div className="card member-card" key={`${m.name}-${index}`}>
                 {CardContent}
               </div>
             )

@@ -9,7 +9,7 @@ export default function Contact() {
     <section id="contact" className="section alt contact">
       <div className="container">
         <h2 className="section-title">{t.contact.title}</h2>
-        <p>{t.contact.subtitle}</p>
+        <p className="contact-subtitle">{t.contact.subtitle}</p>
         <div className="info">
           <div><strong>{t.contact.company}：</strong>{t.contact.companyName}</div>
           <div><strong>Email：</strong><a href="mailto:info@sparkact.co">info@sparkact.co</a></div>
