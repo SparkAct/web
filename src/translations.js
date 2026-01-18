@@ -2,8 +2,7 @@ export const translations = {
   zh: {
     nav: {
       services: '服務項目',
-      about: '關於我們',
-      team: '團隊',
+      team: '團隊成員',
       contact: '聯絡我們'
     },
     hero: {
@@ -25,7 +24,7 @@ export const translations = {
       ]
     },
     services: {
-      title: '成果展示',
+      title: '服務項目',
       items: [
         { 
           client: '雅子瑜珈運動時尚概念所', 
