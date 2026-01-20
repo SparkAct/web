@@ -34,7 +34,14 @@ export const translations = {
           year: '2024',
           logo: '/cases/01_yoga.png'
         },
-        { client: '', title: '', desc: '', tags: [], logo: '' },
+        { 
+          client: '台灣物理學會', 
+          title: '綠界金流多語言串接服務', 
+          desc: '整合ECPay綠界金流支付系統，支援繁體中文與英文雙語介面，完成線上繳費功能開發', 
+          tags: ['金流整合', '多語言', 'ECPay', '軟體開發'],
+          year: '2024',
+          logo: '/cases/02_physics.png'
+        },
         { client: '', title: '', desc: '', tags: [], logo: '' },
         { client: '', title: '', desc: '', tags: [], logo: '' },
         { client: '', title: '', desc: '', tags: [], logo: '' },
@@ -44,12 +51,13 @@ export const translations = {
       ]
     },
     awards: {
-      title: '創辦人榮譽榜',
+      title: '獲獎記錄',
       items: [
-        { title: '2025 Epoch School Young Entrepreneurs of the Future', subtitle: '第二名', location: 'Taipei', date: 'Jun.2025', logo: '/awards/01_Epoch.png' },
-        { title: '2023 第八屆尤努斯獎 社會企業組', subtitle: '決賽入圍', location: 'Taoyuan', date: 'Dec.2023', logo: '/awards/02_Yunus.png' },
-        { title: '2023 華碩雲端客語AI黑客松競賽', subtitle: '第一名', location: 'Taipei', date: 'Sep.2023', logo: '/awards/03_ASUS.png' },
-        { title: '2023 UAiTED Innovation Competition', subtitle: 'Silver Award', location: 'Malaysia', date: 'Nov.2023', logo: '/awards/04_UAiTED.png' }
+        { title: '2025 中央大學新創擂台賽', subtitle: '入圍', location: 'Taoyuan', date: '2024', logo: '/awards/01_NCUCAI.jpg' },
+        { title: '2025 Epoch School Young Entrepreneurs of the Future', subtitle: '第二名(Founder)', location: 'Taipei', date: 'Jun.2025', logo: '/awards/02_Epoch.png' },
+        { title: '2023 第八屆尤努斯獎 社會企業組', subtitle: '決賽入圍(Founder)', location: 'Taoyuan', date: 'Dec.2023', logo: '/awards/03_Yunus.png' },
+        { title: '2023 華碩雲端客語AI黑客松競賽', subtitle: '第一名(Founder)', location: 'Taipei', date: 'Sep.2023', logo: '/awards/04_ASUS.png' },
+        { title: '2023 UAiTED Innovation Competition', subtitle: 'Silver Award(Founder)', location: 'Malaysia', date: 'Nov.2023', logo: '/awards/05_UAiTED.png' }
       ]
     },
     contact: {
@@ -109,7 +117,14 @@ export const translations = {
           year: '2024',
           logo: '/cases/01_yoga.png'
         },
-        { client: '', title: '', desc: '', tags: [], logo: '' },
+        { 
+          client: 'Physical Society of Taiwan', 
+          title: 'ECPay Integration with Multilingual Support', 
+          desc: 'Integrated ECPay payment gateway with bilingual interface (Traditional Chinese & English) for online fee collection', 
+          tags: ['Payment Integration', 'Multilingual', 'ECPay', 'Software Development'],
+          year: '2024',
+          logo: '/cases/02_physics.png'
+        },
         { client: '', title: '', desc: '', tags: [], logo: '' },
         { client: '', title: '', desc: '', tags: [], logo: '' },
         { client: '', title: '', desc: '', tags: [], logo: '' },
@@ -121,10 +136,11 @@ export const translations = {
     awards: {
       title: 'Awards & Recognition',
       items: [
-        { title: '2025 Epoch School Young Entrepreneurs of the Future', subtitle: '2nd Place', location: 'Taipei', date: 'Jun.2025', logo: '/awards/01_Epoch.png' },
-        { title: 'Yunus Award - 8th Social Innovation & Entrepreneurship Competition', subtitle: 'Finalist', location: 'Taoyuan', date: 'Dec.2023', logo: '/awards/02_Yunus.png' },
-        { title: 'ASUS Cloud Hakka AI Hackathon Competition', subtitle: '1st Place', location: 'Taipei', date: 'Sep.2023', logo: '/awards/03_ASUS.png' },
-        { title: '2023 UAiTED Innovation Competition', subtitle: 'Silver Award', location: 'Malaysia', date: 'Nov.2023', logo: '/awards/04_UAiTED.png' }
+        { title: 'National Central University Startup Pitching Competition', subtitle: 'Finalist', location: 'Taoyuan', date: '2024', logo: '/awards/01_NCUCAI.jpg' },
+        { title: '2025 Epoch School Young Entrepreneurs of the Future', subtitle: '2nd Place', location: 'Taipei', date: 'Jun.2025', logo: '/awards/02_Epoch.png' },
+        { title: 'Yunus Award - 8th Social Innovation & Entrepreneurship Competition', subtitle: 'Finalist', location: 'Taoyuan', date: 'Dec.2023', logo: '/awards/03_Yunus.png' },
+        { title: 'ASUS Cloud Hakka AI Hackathon Competition', subtitle: '1st Place', location: 'Taipei', date: 'Sep.2023', logo: '/awards/04_ASUS.png' },
+        { title: '2023 UAiTED Innovation Competition', subtitle: 'Silver Award', location: 'Malaysia', date: 'Nov.2023', logo: '/awards/05_UAiTED.png' }
       ]
     },
     contact: {
