@@ -13,9 +13,9 @@ export const translations = {
       title: '團隊成員',
       subtitle: '超過 3 年以上的軟體開發經驗，提供您最專業的技術服務',
       members: [
-        { name: '蕭善彧 (執行長)', edu: 'BSc, Applied Computing, NCU@Taiwan', avatar: '/team/01_ShanYu.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
-        { name: '賴立傑 (營運長)', edu: 'BBA, Information Management, NCU@Taiwan', avatar: '/team/02_LiJie.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
-        { name: '陳思維 (技術總監)', edu: 'BSc, Computer Science, NCU@Taiwan', avatar: '/team/03_SWC.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
+        { name: '蕭善彧 (執行長)', edu: '', avatar: '/team/01_ShanYu.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
+        { name: '賴立傑 (營運長)', edu: '', avatar: '/team/02_LiJie.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
+        { name: '陳思維 (技術總監)', edu: '', avatar: '/team/03_SWC.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
         { name: '', edu: '' },
         { name: '', edu: '' },
         { name: '', edu: '' },
@@ -84,7 +84,6 @@ export const translations = {
   en: {
     nav: {
       services: 'Services',
-      about: 'About',
       team: 'Team',
       contact: 'Contact'
     },
@@ -96,9 +95,9 @@ export const translations = {
       title: 'Our Team',
       subtitle: 'Over 3 years of software development experience, providing you with the most professional technical services',
       members: [
-        { name: 'Founder / CTO', edu: 'BSc, Applied Computing, NCU@Taiwan', avatar: '/team/01_ShanYu.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
-        { name: 'Senior Engineer', edu: 'BBA, Information Management, NCU@Taiwan', avatar: '/team/02_LiJie.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
-        { name: 'Frontend Engineer', edu: 'BSc, Computer Science, NCU@Taiwan', avatar: '/team/03_SWC.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
+        { name: 'Hsiao, Shan-Yu (CEO)', edu: '', avatar: '/team/01_ShanYu.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
+        { name: 'n/a', edu: '', avatar: '/team/02_LiJie.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
+        { name: 'n/a', edu: '', avatar: '/team/03_SWC.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
         { name: '', edu: '' },
         { name: '', edu: '' },
         { name: '', edu: '' },
