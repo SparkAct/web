@@ -14,8 +14,8 @@ export const translations = {
       subtitle: '超過 3 年以上的軟體開發經驗，提供您最專業的技術服務',
       members: [
         { name: '蕭善彧 (執行長)', edu: '', avatar: '/team/01_ShanYu.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
-        { name: '賴立傑 (營運長)', edu: '', avatar: '/team/02_LiJie.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
-        { name: '陳思維 (技術總監)', edu: '', avatar: '/team/03_SWC.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
+        { name: '陳思維', edu: '', avatar: '/team/02_SWC.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
+        { name: '', edu: '', avatar: '', linkedin: '' },
         { name: '', edu: '' },
         { name: '', edu: '' },
         { name: '', edu: '' },
@@ -31,7 +31,6 @@ export const translations = {
           title: '安裝新電腦', 
           desc: '轉移POS機、CRM等系統資料', 
           tags: ['電腦硬體裝修', '資料轉移'],
-          year: '2024',
           logo: '/cases/01_yoga.png'
         },
         { 
@@ -39,7 +38,6 @@ export const translations = {
           title: '綠界金流多語言串接服務', 
           desc: '整合ECPay綠界金流支付系統，支援繁體中文與英文雙語介面，完成線上繳費功能開發', 
           tags: ['金流整合', '多語言', 'ECPay', '軟體開發'],
-          year: '2024',
           logo: '/cases/02_physics.png'
         },
         { client: '', title: '', desc: '', tags: [], logo: '' },
