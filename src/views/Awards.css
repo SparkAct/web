@@ -7,6 +7,10 @@
   padding-top: 30px;
 }
 
+.awards .section-title {
+  text-align: center;
+}
+
 .awards-scroll {
   display: flex;
   overflow-x: auto;

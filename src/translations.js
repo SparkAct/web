@@ -1,9 +1,9 @@
 export const translations = {
   zh: {
     nav: {
-      services: '服務項目',
-      team: '團隊成員',
-      contact: '聯絡我們'
+      services: '服務經驗',
+      contact: '聯絡我們',
+      awards: '獲獎記錄'
     },
     hero: {
       title: '火花行動有限公司 SparkAct.co',
@@ -11,41 +11,24 @@ export const translations = {
     },
     team: {
       title: '團隊成員',
-      subtitle: '超過 3 年以上的軟體開發經驗，提供您最專業的技術服務',
       members: [
-        { name: '蕭善彧 (執行長)', edu: '', avatar: '/team/01_ShanYu.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
-        { name: '陳思維', edu: '', avatar: '/team/02_SWC.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
-        { name: '', edu: '', avatar: '', linkedin: '' },
-        { name: '', edu: '' },
-        { name: '', edu: '' },
-        { name: '', edu: '' },
-        { name: '', edu: '' },
-        { name: '', edu: '' }
+        { name: '蕭善彧 (執行長)', avatar: '/team/01_ShanYu.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
+        { name: '陳思維 (技術總監)', avatar: '/team/02_SWC.jpg', linkedin: '' },
+        { name: '賴立杰 (實習生_26S)', avatar: '', linkedin: '' },
+        { name: '吳亞倫 (實習生_26S)' },
+        { name: '陳國興 (實習生_26S)' }
       ]
     },
     services: {
-      title: '服務項目',
+      title: '服務經驗',
       items: [
-        { 
-          client: '雅子瑜珈運動時尚概念所', 
-          title: '安裝新電腦', 
-          desc: '轉移POS機、CRM等系統資料', 
-          tags: ['電腦硬體裝修', '資料轉移'],
-          logo: '/cases/01_yoga.png'
-        },
-        { 
-          client: '台灣物理學會', 
-          title: '綠界金流多語言串接服務', 
-          desc: '整合ECPay綠界金流支付系統，支援繁體中文與英文雙語介面，完成線上繳費功能開發', 
-          tags: ['金流整合', '多語言', 'ECPay', '軟體開發'],
-          logo: '/cases/02_physics.png'
-        },
-        { client: '', title: '', desc: '', tags: [], logo: '' },
-        { client: '', title: '', desc: '', tags: [], logo: '' },
-        { client: '', title: '', desc: '', tags: [], logo: '' },
-        { client: '', title: '', desc: '', tags: [], logo: '' },
-        { client: '', title: '', desc: '', tags: [], logo: '' },
-        { client: '', title: '', desc: '', tags: [], logo: '' }
+        { client: '私立舞鶴瑜珈短期補習班', title: '客製電腦硬體安裝', desc: '全新電腦軟硬體建置專案，應用系統初始化與資料轉移。', logo: '' },
+        { client: '臺灣物理學會', title: '綠界金流多語言串接服務', desc: '整合ECPay綠界金流支付系統，支援繁體中文與英文雙語介面', logo: '/cases/02_physics.png' },
+        { client: '雅子瑜珈運動時尚概念所', title: 'Odoo POS 系統與資料整合', desc: 'OdooPOS DB-Schema 設計，並轉移舊有 ZDPOS SQL-DB', logo: '/cases/03_yoga.png' },
+        { client: '', title: '', desc: '', logo: '' },
+        { client: '', title: '', desc: '', logo: '' },
+        { client: '', title: '', desc: '', logo: '' },
+        { client: '', title: '', desc: '', logo: '' }
       ]
     },
     awards: {
@@ -82,7 +65,7 @@ export const translations = {
   en: {
     nav: {
       services: 'Services',
-      team: 'Team',
+      awards: 'Awards',
       contact: 'Contact'
     },
     hero: {
@@ -91,43 +74,25 @@ export const translations = {
     },
     team: {
       title: 'Our Team',
-      subtitle: 'Over 3 years of software development experience, providing you with the most professional technical services',
       members: [
-        { name: 'Hsiao, Shan-Yu (CEO)', edu: '', avatar: '/team/01_ShanYu.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
-        { name: 'n/a', edu: '', avatar: '/team/02_LiJie.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
-        { name: 'n/a', edu: '', avatar: '/team/03_SWC.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
-        { name: '', edu: '' },
-        { name: '', edu: '' },
-        { name: '', edu: '' },
-        { name: '', edu: '' },
-        { name: '', edu: '' }
+        { name: 'Hsiao, Shan-Yu (CEO)', avatar: '/team/01_ShanYu.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
+        { name: 'Chen, Si-Wei (Tech Director)', avatar: '/team/02_SWC.jpg', linkedin: '' },
+        { name: 'Lai, Li-Jie (Intern_26S)', avatar: '', linkedin: '' },
+        { name: 'Wu, Ya-Lun (Intern_26S)' },
+        { name: 'Chen, Guo-Xing (Intern_26S)' }
       ]
     },
     services: {
-      title: 'Portfolio',
+      title: 'Services',
       items: [
-        { 
-          client: 'YACCO Yoga & Fitness Studio', 
-          title: 'New Computer Installation', 
-          desc: 'Data migration for POS system and CRM', 
-          tags: ['Hardware Setup', 'Data Migration'],
-          year: '2024',
-          logo: '/cases/01_yoga.png'
-        },
-        { 
-          client: 'Physical Society of Taiwan', 
-          title: 'ECPay Integration with Multilingual Support', 
-          desc: 'Integrated ECPay payment gateway with bilingual interface (Traditional Chinese & English) for online fee collection', 
-          tags: ['Payment Integration', 'Multilingual', 'ECPay', 'Software Development'],
-          year: '2024',
-          logo: '/cases/02_physics.png'
-        },
-        { client: '', title: '', desc: '', tags: [], logo: '' },
-        { client: '', title: '', desc: '', tags: [], logo: '' },
-        { client: '', title: '', desc: '', tags: [], logo: '' },
-        { client: '', title: '', desc: '', tags: [], logo: '' },
-        { client: '', title: '', desc: '', tags: [], logo: '' },
-        { client: '', title: '', desc: '', tags: [], logo: '' }
+        { client: 'YACCO Yoga & Fitness Studio', title: 'New Computer Installation', desc: 'Data migration for POS system and CRM', logo: '/cases/01_yoga.png' },
+        { client: 'Physical Society of Taiwan', title: 'ECPay Integration with Multilingual Support', desc: 'Integrated ECPay payment gateway with bilingual interface (Traditional Chinese & English) for online fee collection', logo: '/cases/02_physics.png' },
+        { client: '', title: '', desc: '', logo: '' },
+        { client: '', title: '', desc: '', logo: '' },
+        { client: '', title: '', desc: '', logo: '' },
+        { client: '', title: '', desc: '', logo: '' },
+        { client: '', title: '', desc: '', logo: '' },
+        { client: '', title: '', desc: '', logo: '' }
       ]
     },
     awards: {
