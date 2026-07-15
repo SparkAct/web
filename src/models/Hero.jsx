@@ -4,11 +4,12 @@ import '../views/Hero.css'
 
 export default function Hero() {
   const { t } = useLanguage()
-  
+
   return (
     <section id="home" className="hero">
       <div className="container hero-inner">
         <h1>{t.hero.title}</h1>
+        <div className="hero-divider" />
         <p>{t.hero.subtitle}</p>
       </div>
     </section>

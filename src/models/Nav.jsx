@@ -10,6 +10,7 @@ export default function Nav() {
       <div className="container nav-inner">
         <a className="brand" href="#home">火花行動有限公司 SparkAct.co</a>
         <nav>
+          <a href="#products">{t.nav.products}</a>
           <a href="#services">{t.nav.services}</a>
           <a href="#awards">{t.nav.awards}</a>
           <a href="#contact" className="btn btn-sm">{t.nav.contact}</a>

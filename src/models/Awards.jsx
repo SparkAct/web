@@ -9,16 +9,14 @@ export default function Awards() {
     <section id="awards" className="section awards">
       <div className="container">
         <h2 className="section-title">{t.awards.title}</h2>
-        <div className="awards-scroll">
+        <div className="awards-grid">
           {t.awards.items.map((award) => (
             <div className="award-card" key={award.title}>
-              {award.logo && (
-                <img src={award.logo} alt={award.title} className="award-logo" />
+              <div className="award-date">{award.date}</div>
+              <div className="award-title">{award.title}</div>
+              {award.subtitle && (
+                <div className="award-subtitle">{award.subtitle}</div>
               )}
-              <div className="award-details">
-                <div className="award-title">{award.title}</div>
-                {award.subtitle && <div className="award-subtitle">{award.subtitle}</div>}
-              </div>
             </div>
           ))}
         </div>

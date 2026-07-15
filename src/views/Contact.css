@@ -1,41 +1,113 @@
 .contact {
-  scroll-margin-top: 80px;
-}
-
-.contact.section {
-  padding-top: 30px;
+  scroll-margin-top: 64px;
 }
 
 .contact-subtitle {
-  margin-top: 12px;
-  margin-bottom: 24px;
+  margin: 0 0 40px;
+  color: var(--muted);
+  font-size: 16px;
+  max-width: 480px;
+  line-height: 1.6;
+}
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: start;
 }
 
 .info {
-  margin: 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.info-row {
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  gap: 0 12px;
+  font-size: 14px;
+}
+
+.info-label {
   color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-top: 1px;
 }
 
-.info div {
-  margin: 8px 0;
-}
-
-.contact-card {
-  background: #fff;
-}
-
-.contact-card ol {
-  margin: 8px 0;
-  padding-left: 24px;
-}
-
-.contact-card li {
-  margin: 8px 0;
+.info-value {
   color: var(--text);
 }
 
+.info-value a {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border);
+}
+
+.info-value a:hover {
+  border-color: var(--text);
+}
+
+.contact-cta {
+  margin-top: 32px;
+}
+
+.process-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.process-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.process-step {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: 0 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+  align-items: start;
+}
+
+.process-step:first-child {
+  border-top: 1px solid var(--border);
+}
+
+.process-step-num {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--muted);
+  letter-spacing: 0.06em;
+  padding-top: 2px;
+}
+
+.process-step-text {
+  font-size: 14px;
+  color: var(--text);
+  line-height: 1.5;
+}
+
 @media (max-width: 820px) {
-  .contact {
+  .contact-layout {
     grid-template-columns: 1fr;
+    gap: 48px;
+  }
+}
+
+@media (max-width: 480px) {
+  .info-row {
+    grid-template-columns: 60px 1fr;
   }
 }

@@ -11,8 +11,7 @@ export default function Team() {
     <section id="team" className="section team">
       <div className="container">
         <h2 className="section-title">{t.team.title}</h2>
-        <p className="team-subtitle">{t.team.subtitle}</p>
-        <div className="team-grid">
+<div className="team-grid">
           {t.team.members
             .filter(m => m.name && m.name.trim())
             .map((m, index) => {
