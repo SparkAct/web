@@ -26,7 +26,8 @@ export const translations = {
       members: [
         { name: '蕭善彧 (執行長)', avatar: '/team/01_ShanYu.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
         { name: '陳思維 (技術總監)', avatar: '/team/02_SWC.jpg', linkedin: '' },
-        { name: '利杰 (狐獴)', avatar: '/team/03_LiJie.jpg', linkedin: '' }
+        { name: '利杰 (狐獴)', avatar: '/team/03_LiJie.jpg', linkedin: '' },
+        { name: '1AN (BeNovel 產品總監)', avatar: '/team/04_1an.jpeg', linkedin: '' }
       ]
     },
     services: {
@@ -101,7 +102,8 @@ export const translations = {
       members: [
         { name: 'Hsiao, Shan-Yu (CEO)', avatar: '/team/01_ShanYu.jpg', linkedin: 'https://www.linkedin.com/in/hsyisshy/' },
         { name: 'Chen, Si-Wei (Tech Director)', avatar: '/team/02_SWC.jpg', linkedin: '' },
-        { name: 'Li, Jie (Meerkat)', avatar: '/team/03_LiJie.jpg', linkedin: '' }
+        { name: 'Li, Jie (Meerkat)', avatar: '/team/03_LiJie.jpg', linkedin: '' },
+        { name: '1AN (BeNovel Product Director)', avatar: '/team/04_1an.jpeg', linkedin: '' }
       ]
     },
     services: {
