@@ -15,7 +15,7 @@ export const translations = {
       items: [
         {
           name: 'BeNovel 寫寫輕小說',
-          desc: 'AI 輔助寫輕小說的平台',
+          desc: '專為長篇文字創作者設計的編輯器',
           url: 'https://benovel.site/',
           logo: ''
         }
@@ -91,7 +91,7 @@ export const translations = {
       items: [
         {
           name: 'BeNovel',
-          desc: 'An AI-assisted platform for writing light novels.',
+          desc: 'An editor designed for long-form writers.',
           url: 'https://benovel.site/',
           logo: ''
         }
